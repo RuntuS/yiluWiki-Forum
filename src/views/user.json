@@ -1,0 +1,43 @@
+{
+    "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJ5dU5hbWUiOiJxNDc1MjU0MzQ0IiwiaXNzIjoiYTkwNDMiLCJleHAiOjE1NDM1NjI2NjMsInl1SWQiOjN9.vhRAmAegZtH4xqMDGZy37OdkuApAOPte4b9WjMYXG8JqarY9SnAJ4h9I40ljmTA04boFUE5ZFefquNtMm_Ehfw",
+    "ywUser": {
+        "yuId": 3,
+        "yuLogin": "q475254344",
+        "yuNodeId": "MDQ6VXNlcjI4ODIxNjU1",
+        "yuAvatarUrl": "https://avatars3.githubusercontent.com/u/28821655?v=4",
+        "yuHtmlUrl": "https://github.com/q475254344",
+        "yuName": "q475254344",
+        "yuBio": "",
+        "yuPassword": null,
+        "yuGithubId": 28821655
+    }
+}
+
+{
+    "posts": [
+        {
+          "yfpContent" : "上文我们创建了一个测试类以及测试用的FirstBean，这次将它完成成一个完整的WebAPP项目。",
+          "yfpCreateTime" : "2018-10-29T12:51:24.660Z",
+          "yfpId": 1,
+          "yfpTitle": "第一个SSM 搭建实践",
+          "yfpUpdateTime":  "2018-10-29T12:51:24.660Z",
+          "yuId": "q475254344"
+        },
+        {
+          "yfpContent": "上文我们创建了一个测试类以及测试用的FirstBean，这次将它完成成一个完整的WebAPP项目。",
+          "yfpCreateTime": "2018-10-29T12:51:24.660Z",
+          "yfpId": 2,
+          "yfpTitle": "第一个SSM 搭建实践",
+          "yfpUpdateTime": "2018-10-29T12:51:24.660Z",
+          "yuId": "q475254344"
+        },
+        {
+          "yfpContent": "上文我们创建了一个测试类以及测试用的FirstBean，这次将它完成成一个完整的WebAPP项目。",
+          "yfpCreateTime": "2018-10-29T12:51:24.660Z",
+          "yfpId": 3,
+          "yfpTitle": "第一个SSM 搭建实践",
+          "yfpUpdateTime" : "2018-10-29T12:51:24.660Z",
+          "yuId": "q475254344"
+        }
+    ]
+}
