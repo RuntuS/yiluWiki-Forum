@@ -19,7 +19,7 @@
             if (state !== this.state)
                 return;
             this.$request
-                .post(`/tokens/${code}`)
+                .post(`/tokens?${code}`)
                 .then((res) => {
                     const yuInfo = {
                         accessToken: 'Bearer ' + res.data.accessToken,

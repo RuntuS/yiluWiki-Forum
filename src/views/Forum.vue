@@ -20,7 +20,7 @@
                 <loading v-if="loading" style="height: 70px;"></loading>
             </div>
             <aside class="forum-aside">
-                 <button v-if="!yuInfo" class="login" @click="doLogin()">Login with Github</button>
+                 <button v-if="yuInfo" class="login" @click="doLogin()">Login with Github</button>
                 <div class="yuInfo">
                     <img :src="this.yuInfo.ywUser.yuAvatarUrl">
                     <span>{{this.yuInfo.ywUser.yuName}}</span><!--头像展示处-->
@@ -59,9 +59,9 @@
             Loading
         },
         data() {
-            return {
-                clientId: "6f6caa3910db2c0b8284",
-                redirectURI: "http://www.yilustudio.cn/github_callback/",
+            return {  //6f6caa3910db2c0b8284
+                clientId: "e8fffb3f35563a0323e8",
+                redirectURI: "http://localhost:8080/github_callback/",
                 scopes: "user",
                 state: "yilu-studio",
                 page: 1,
@@ -236,11 +236,11 @@
             }
         },
         created() {
-
-            /*if (localStorage.getItem("yuInfo") == null) {
-                alert("请先使用Github账号登录");
-                this.doLogin();
-            }*/
+            // this.doLogin();
+            // if (localStorage.getItem("yuInfo") == null) {
+            //     alert("请先使用Github账号登录");
+            //     this.doLogin();
+            // }
             debugger;
             // this.yuInfo = JSON.parse(localStorage.getItem("yuInfo")); // 后期待补充 校验
 
