@@ -15,7 +15,7 @@
     "@vue/cli-plugin-babel": "^3.0.3",
     "@vue/cli-plugin-eslint": "^3.0.3",
     "@vue/cli-service": "^3.0.3",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "showdown": "^1.8.7",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1",
